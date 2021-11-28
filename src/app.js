@@ -17,7 +17,7 @@ app.get('/test', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello world from AWS cloud server. Now it is running through code pipeline!');
+  res.status(200).send('Hello world from AWS cloud server. Now it is running through code pipeline! + added github actions');
 });
 
 app.get('/person', validator, (req, res) => {  
